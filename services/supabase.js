@@ -8,7 +8,7 @@ import 'react-native-url-polyfill/auto';
 
 const SUPABASE_URL = process.env.EXPO_PUBLIC_SUPABASE_URL;
 const SUPABASE_ANON_KEY = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY;
-const API_BASE = 'https://verceltest-one-neon.vercel.app/api';
+const API_BASE = 'https://ciftci-test.vercel.app/api';
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
   auth: {
